@@ -1,0 +1,215 @@
+
+.main{
+    width:1000px;
+    height:518px;
+    margin:5px auto;
+}
+.main div{
+    float:left;
+}
+.main01{
+    width:620px;
+    height:506px;
+}
+.main01-1{
+    width:620px;
+    height:200px;
+}
+.main01-1 div{
+    float:left;
+}
+.main01-1-img{
+    width:318px;
+    height:200px;
+    background:url(../img/main1.jpg);
+}
+.main01-1-text{
+    width:280px;
+    height:200px;
+    margin:2px;
+    margin-left: 20px;
+}
+.main01-1-text ul li a{
+    width:280px;
+    height:65px;
+    line-height:20px;
+    font-size:12px;
+}
+.main01-1-text ul li a{
+    display:block;
+    width:200px;
+    padding:10px 0px 0px 55px;
+}
+.main01-1-text ul li a:hover{
+    color:red;
+}
+.main01-1-ul-img1{
+    width:280px;
+    height:65px;
+    background-image:url(../img/ico_bg1.gif);
+    background-repeat:no-repeat;
+}
+.main01-1-ul-img2{
+    width:280px;
+    height:65px;
+    background-image:url(../img/ico_bg2.gif);
+    background-repeat:no-repeat;
+}
+.main01-1-ul-img3{
+    width:280px;
+    height:65px;
+    background-image:url(../img/ico_bg3.gif);
+    background-repeat:no-repeat;
+}
+.main01-1-ul-img1:hover,.main01-1-ul-img2:hover,.main01-1-ul-img3:hover{
+    background-position:0px -65px;
+}
+main02{
+    width:380px;
+    height:500px;
+}
+.main02 img{
+    width:380px;
+    height:500px;
+    margin-left:0px;
+}
+.main03{
+    width:620px;
+    height:213px;
+    margin-top:-213px;
+}
+.main03 div{
+    float:left;
+}
+.main03-1{
+    width:300px;
+    height:213px;
+    position:relative;
+}
+.main03-1-1 p{
+    margin-top:20px;
+}
+.main03-1-1 p a{
+    font-size:10px;
+    color:#be9091;
+    margin:0px 10px;
+}
+.main03-1-1 ul li{
+    position:absolute;
+    top:10px;
+    width:250px;
+    height:20px;
+    background:url(../img/tubiao.jpg);
+    background-repeat:no-repeat;
+    position:relative;
+    border-bottom:1px dashed #BABABA;
+    margin-top:10px;
+}
+.main03-1-1 ul li a{
+    position:absolute;
+    top:2px;
+    left:10px;
+    font-size:10px;
+}
+.main03-1-1 ul li a:hover{
+    color:red;
+}
+.left li{
+    font-size:12px;
+    line-height:27px;
+    height:30px;
+    background:url(../img/tupiao.jpg);
+    background-repeat:no-repeat;
+    margin:-4px auto;
+}
+.left li a{
+    margin-top: 20px;
+}
+.main03-2{
+    width:300px;
+    height:213px;
+}
+.main03-2-1{
+    width:310px;
+    height:20px;
+    margin-top:10px;
+}
+
+
+
+
+
+.tupain{
+    width:1000px;
+    height:405px;
+    margin:0px auto;
+    position:relative;
+}
+
+.tupain ul li{
+
+    float:left;
+    padding:0px 0px 0px 6px;
+
+}
+.tupain ul li div a{
+    width:100%;
+    height:100%;
+    display:block;
+    position:relative;
+}
+.tupain ul li div a p{
+    font-size:25px;
+    color:white;
+    position:absolute;
+    bottom:20px;
+    right:10px;
+}
+.tupain ul li div a span{
+    color:white;
+    position:absolute;
+    bottom:0;
+    right:10px;
+}
+.tupain ul li div{
+    transition:absolute;
+    width:100%;
+    height:0;
+    background:rgba(0,0,0,.3);
+    transition:.3s;
+    /* 超出部分隐藏 */
+    overflow:hidden;
+    margin-left:-6px;
+
+}
+.tupain ul li:hover div{
+    height:100%;
+}
+
+
+.tu1{
+    width:240px;
+    height:326px;
+    background:url(../img/pic.png);
+    background-repeat:no-repeat;
+    margin-left:10px;
+}
+
+.tu2{
+    width:240px;
+    height:326px;
+    background:url(../img/pict.png);
+    background-repeat:no-repeat;
+}
+.tu3{
+    width:240px;
+    height:326px;
+    background:url(../img/pictu.png);
+    background-repeat:no-repeat;
+}
+.tu4{
+    width:241px;
+    height:326px;
+    background:url(../img/picture.png);
+    background-repeat:no-repeat;
+}

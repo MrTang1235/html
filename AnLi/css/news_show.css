@@ -1,0 +1,171 @@
+.main{
+    width: 1000px;
+    height: 1000px;
+    margin: 5px auto;
+    position:relative;
+}
+.main-left{
+    width:670px;
+    height:1000px;
+    overflow: hidden;
+}
+.box{
+    width:600;
+    height:15;
+    margin:25px 0px 0px 30px;
+}
+.box p a{
+    font-size: 10px;
+}
+.main-box{
+    width:650px;
+    height:30px;
+    background:red;
+    overflow:hidden;
+    margin:auto;
+}
+.imgtu{
+    width:650px;
+    height:404px;
+    background:url(../img/neirong01_03.jpg);
+    background-repeat:no-repeat;
+}
+.main-box p{
+    font-size:14px;
+    color:white;
+    margin:6px 0 0 190px;
+}
+.neirong{
+    width:650px;
+    height:805px;
+    margin:10px auto;
+}
+.neirong p{
+    font-size:13px;
+    line-height:30px;
+    color:#424242;
+}
+.neirong p a{
+    font-size:13px;
+    line-height:30px;
+    color:#424242;
+}
+.neirong ul li{
+    font-size:13px;
+    color:#424242;
+}
+.fenxiang{
+    width:600px;
+    height:20px;
+    background: white;
+    margin-top: -27px;
+    margin-left:51px;
+}
+
+.fenxiang ul li{
+    width:75px;
+    height:20px;
+    position:relative;
+    float:left;
+}
+.fenxiang ul li a{
+    position:absolute;
+    bottom: 2px;
+    font-size:13px;
+    color:#424242;
+    margin-left:5px;
+}
+
+.main-right{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:320px;
+    height:1000px;
+}
+.right-top{
+    width:290px;
+    height:35px;
+    margin:auto;
+    margin-top:50px;
+}
+.top01{
+    width:50px;
+    height:35px;
+    background:#FFD100;
+    overflow:hidden;
+}
+.top01 div{
+        margin-top:10px;
+        margin-left: 10px;
+    }
+.top02{
+    width:240px;
+    height:35px;
+    background:red;
+    margin-top:-35px;
+    float:right;
+}
+.top02 p{
+    color: white;
+    margin:9px 0px 0px 20px;
+}
+.right-main1{
+    width:290px;
+    height:275px;
+    margin:0 auto;
+}
+.right-main1 ul li{
+    width:128px;
+    height:130px;
+    float:left;
+    margin:5px 0px 0px 11px;
+}
+.main1-img{
+    width:128px;
+    height:104px;
+    background:url(../img/news-main05.jpg);
+}
+.right-main1 ul li p{
+    font-size:11px;
+
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.right-main1 ul li:hover p{
+    color:red;
+}
+.right-main2{
+    width:290px;
+    height:175px;
+    margin:0 auto;
+}
+.right-main2 ul li{
+    width:290px;
+    height:26px;
+    background:url(../img/ruandian.jpg);
+    background-repeat:no-repeat;
+    margin:10px 0 0 0;
+}
+.right-main2 ul li:hover{
+    background-position:0px -27px;
+}
+.right-main2 ul li div{
+    width:266px;
+    height:26px;
+    float:right;
+}
+.right-main2 ul li:hover div{
+    background:#D20000;
+}
+.right-main2 ul li div p a{
+    margin-left:3px;
+    font-size:14px;
+    line-height:25px;
+}
+.right-main2 ul li div p:hover a{
+    color:white;
+}
+

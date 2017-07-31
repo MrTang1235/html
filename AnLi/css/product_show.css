@@ -1,0 +1,63 @@
+.main{
+    width: 1000px;
+    height: 820px;
+    margin:5px auto;
+}
+.main-biaoti{
+    width:265px;
+    height:30px;
+    margin:auto;
+}
+.main-biaoti p{
+    font-size: 25px;
+    font-family: 微软雅黑；
+}
+.box{
+    width:600;
+    height:15;
+    margin:25px 0px 0px 30px;
+}
+.box p a{
+    font-size: 10px;
+}
+.box p:hover a{
+    color:red;
+}
+
+.main-main{
+    width: 600px;
+    height: 715px;
+    margin:10px auto;
+    overflow: hidden;
+}
+.main-xiaotu{
+    width:547px;
+    height: 90px;
+    margin:5px auto;
+}
+.main-xiaotu>div{
+    float: left;
+}
+.xiaotu-img{
+    width:95px;
+    height:80px;
+    margin-left: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.main-xiaotu>.xiaotu-img:hover{
+    background:url(../img/ico_bg.gif);
+
+    background-repeat: no-repeat;
+}
+.xiaotu-img img{
+    margin-top:3px;
+    margin-left:5px;
+}
+
+
+.main-datu{
+    width:600px;
+    height: 600px;
+    margin:20px auto;
+}

@@ -1,0 +1,302 @@
+.main{
+    width: 1000px;
+    height: 1300px;
+    margin: 5px auto;
+    position: relative;
+
+}
+.main-left{
+
+    width:320px;
+    height:1200px;
+    overflow:hidden;
+}
+.left-main{
+    width:300px;
+    height:1200px;
+    margin:auto;
+}
+.box{
+    width:320;
+    height:15;
+    margin-top: 10px;
+}
+.box p{
+    font-size:14px;
+}
+.box p a{
+    font-size: 12px;
+}
+.left-img01{
+    width:300px;
+    height:66px;
+    background:url(../img/product-left-1.jpg) no-repeat;
+    margin-top:10px;
+}
+.left-ht{
+    width:300px;
+    height:35px;
+    margin-top:10px;
+}
+
+.left-ht div{
+    float: left;
+}
+.ht-1{
+    width:30px;
+    height:35px;
+    background:#FFD100;
+    overflow:hidden;
+}
+.ht-1 p{
+    margin-top:10px;
+}
+.ht-2{
+    width:270px;
+    height:35px;
+    background:#DCDCDC;
+    overflow:hidden;
+}
+.left-ht>.ht-2:hover{
+    background:red;
+}
+.ht-2-1{
+    width:270px;
+    height:35px;
+}
+.ht-2-1 p{
+    margin:9px 0 0 30px;
+    color:#5D5D5D;
+}
+.ht-2>.ht-2-1:hover p{
+    color:white;
+}
+.left-ul{
+    width:230px;
+    height: 180px;
+    margin: 5px auto;
+    overflow:hidden;
+}
+.left-ul ul li{
+    width190px;
+    height:20px;
+    margin:5px auto;
+}
+.left-ul ul li a{
+    color:#5D5D5D;
+}
+.left-ul ul li:hover a{
+    color:red;
+}
+.produc-left-02img{
+    width:300px;
+    height:41px;
+    background:url(../img/product-left-02_03.jpg) no-repeat;
+    margin-top:20px;
+}
+.huodong{
+    width:285px;
+    height:260px;
+    margin-top:10px;
+}
+.huodong ul li{
+    width:285px;
+    height:55px;
+    margin-top:10px;
+
+    border-bottom:1px dashed #BABABA;
+}
+.huodong ul li a{
+    font-size:12px;
+    width:285px;
+    height:30px;
+}
+.huodong ul li:hover a{
+    color:red;
+}
+.huodong ul li p{
+    font-size:12px;
+    margin-top:10px;
+}
+.huodong ul li:hover p{
+    color:red;
+}
+.produc-left-03img{
+    width:300px;
+    height:41px;
+    background:url(../img/product-left-03_03_06.jpg) no-repeat;
+    margin-top:20px;
+}
+.fuwubapjia{
+    width:300px;
+    height:80px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.fuwubapjia ul li{
+    width:300px;
+    height:71px;
+
+}
+.fuwubapjia ul li>div{
+    float: left;
+}
+.text{
+    width:145px;
+    height:71px;
+}
+.text a{
+    font-size:12px;
+}
+.fuwubapjia ul li:hover a{
+    color:red;
+}
+.img{
+    width:141px;
+    height:71px;
+    background:url(../img/libg14.gif) no-repeat;
+    background-position: 0px -71px;
+    margin-left: 10px;
+}
+.img p{
+    font-size:12px;
+}
+.fuwubapjia ul li:hover .img p{
+    color:white;
+    }
+.fuwubapjia ul li:hover .img{
+    background-position: 0px 0px;
+}
+.img span{
+    font-size:25px;
+    margin:0px 0px 0px 20px;
+}
+.fuwubapjia ul li:hover .img span{
+    color:white;
+}
+
+.fuwubapjia2{
+    width:300px;
+    height:165px;
+    overflow:hidden;
+}
+.fuwubapjia2 ul li{
+    width:300px;
+    height:71px;
+    margin-top:10px;
+
+}
+.fuwubapjia2 ul li>div{
+    float: left;
+}
+.text2{
+    width:145px;
+    height:71px;
+}
+.text2 a{
+    font-size:12px;
+}
+.fuwubapjia2 ul li:hover a{
+    color:red;
+}
+.img2{
+    width:141px;
+    height:71px;
+    background:url(../img/libg14.gif) no-repeat;
+    background-position: 0px -71px;
+    margin-left: 10px;
+}
+.img2 p{
+    font-size:12px;
+}
+.fuwubapjia2 ul li:hover .img2 p{
+    color:white;
+    }
+.fuwubapjia2 ul li:hover .img2{
+    background-position: 0px 0px;
+}
+.img2 span{
+    font-size:25px;
+    margin-left:20px;
+    line-height: 55px;
+}
+.fuwubapjia2 ul li:hover .img2 span{
+    color:white;
+}
+
+
+.main-right{
+    width:670px;
+    height:1300px;
+    overflow: hidden;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.tupian{
+    width:660px;
+    height:1200px;
+    margin-left:10px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.tupian ul li{
+    width:300px;
+    height:265px;
+    margin: 15px 0px 0px 15px;
+    float:left;
+}
+.tupian-img{
+    width:300px;
+    height:202px;
+    background:url(../img/right-img-01_03.jpg) no-repeat;
+}
+.tupian-box{
+    width:300px;
+    height:30px;
+    background:#BABABA;
+    overflow:hidden;
+}
+.tupian ul li:hover .tupian-box{
+    background:#FFD100;
+}
+.tupian-box p{
+    font-size:12px;
+    margin:9px 0px 0px 15px;
+}
+.tupian-time{
+    width:300px;
+    height:15px;
+}
+.tupian-time>div{
+    float:left;
+}
+.tupian-time1{
+    width:200px;
+    height:15px;
+    float:right;
+}
+
+.tupian-time1 p{
+    font-size:12px;
+    color:#BABABA;
+    margin-top:3px;
+}
+.tupian ul li:hover p{
+    color:red;
+}
+.tupian-time2{
+    width:100px;
+    height:15px;
+
+}
+
+.tupian-time2 a{
+    font-size:12px;
+    color:#BABABA;
+
+
+}
+.tupian ul li:hover a{
+    color:red;
+}

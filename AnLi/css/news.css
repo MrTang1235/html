@@ -1,0 +1,241 @@
+.main{
+    width: 1000px;
+    height: 900px;
+    margin: 5px auto;
+    position:relative;
+}
+.main-left{
+    width:670px;
+    height:900px;
+    overflow: hidden;
+}
+.box{
+    width:600;
+    height:15;
+    margin:25px 0px 0px 30px;
+}
+.box p a{
+    font-size: 10px;
+}
+.main-ul{
+    width:670px;
+    height:750px;
+    position:relative;
+}
+.main-ul ul li{
+    width:670px;
+    height:65px;
+    border-bottom:1px dashed #BABABA;
+    margin-top:10px;
+    position:relative;
+}
+.ul-li-img{
+    width:670px;
+    height:65px;
+    background:url(../img/libg11.gif);
+    background-repeat: no-repeat;
+}
+.main-ul ul li:hover .ul-li-img{
+
+    background-position: 0 -65px;
+}
+
+.ul-li-img p{
+    position:absolute;
+    left:10px;
+    font-size:30px;
+    font-family: 微软雅黑;
+}
+.main-ul ul li:hover .ul-li-img p{
+    color:white;
+}
+.ul-li-img span{
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size:10px;
+}
+.main-ul ul li:hover .ul-li-img span{
+    color:white;
+}
+.ul-li-text{
+    position:absolute;
+    top:0px;
+    left:70px;
+    width:600px;
+    height:70px;
+
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.ul-li-text p{
+    font-family:微软雅黑；
+}
+.tine{
+    font-size:10px;
+}
+.ul-li-text span{
+    font-size:10px;
+}
+
+.left-bott{
+    width:310px;
+    height:30px;
+    margin-top:-100px;
+}
+.left-bott >div{
+    float: left;
+    margin-left:5px;
+}
+.bott011{
+    width:55px;
+    height:25px;
+    border: 2px solid #D7D7D7;
+}
+.bott1{
+    width:20px;
+    height:25px;
+    border: 2px solid #D7D7D7;
+}
+.bott22{
+    width:55px;
+    height:25px;
+    border: 2px solid #D7D7D7;
+    float:right;
+    margin-top:0px;
+}
+
+.bott33{
+    width:55px;
+    height:25px;
+    border: 2px solid #D7D7D7;
+    float:right;
+    margin-top:0px;
+}
+.left-bott div p{
+    font-size:15px;
+    color:#A1A1A1;
+    line-height:25px;
+}
+.left-bott div :hover{
+    background:red;
+}
+.left-bott div p a{
+    font-size:15px;
+    color:#A1A1A1;
+    line-height:25px;
+    margin-left:7px;
+}
+.left-bott div p:hover a{
+    color:white;
+}
+
+
+
+
+.main-right{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:320px;
+    height:900px;
+}
+.right-top{
+    width:290px;
+    height:35px;
+    margin:auto;
+    margin-top:50px;
+}
+.top01{
+    width:50px;
+    height:35px;
+    background:#FFD100;
+    overflow:hidden;
+}
+.top01 div{
+        margin-top:10px;
+        margin-left: 10px;
+    }
+.top02{
+    width:240px;
+    height:35px;
+    background:red;
+    margin-top:-35px;
+    float:right;
+}
+.top02 p{
+    color: white;
+    margin:9px 0px 0px 20px;
+}
+.right-main1{
+    width:290px;
+    height:275px;
+    margin:0 auto;
+}
+.right-main1 ul li{
+    width:128px;
+    height:130px;
+    float:left;
+    margin:5px 0px 0px 11px;
+}
+.main1-img{
+    width:128px;
+    height:104px;
+    background:url(../img/news-main05.jpg);
+}
+.right-main1 ul li p{
+    font-size:11px;
+
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.right-main1 ul li:hover p{
+    color:red;
+}
+.right-main2{
+    width:290px;
+    height:535px;
+    margin:0 auto;
+}
+.right-main2 ul li{
+    width:290px;
+    height:26px;
+    background:url(../img/ruandian.jpg);
+    background-repeat:no-repeat;
+    margin:20px 0 0 0;
+}
+.right-main2 ul li:hover{
+    background-position:0px -27px;
+}
+.right-main2 ul li div{
+    width:266px;
+    height:26px;
+    float:right;
+}
+.right-main2 ul li:hover div{
+    background:#D20000;
+}
+.right-main2 ul li div p a{
+    margin-left:3px;
+    font-size:14px;
+    line-height:25px;
+}
+.right-main2 ul li div p:hover a{
+    color:white;
+}
+.right-bottom{
+    width:75px;
+    height:20px;
+    background:#CBCBCB;
+    margin:230px 0px 0px 215px;
+}
+.right-bottom :hover{
+    background:#5293F5;
+}
+.right-bottom p a{
+    color:white;
+    font-size:14px;
+}
